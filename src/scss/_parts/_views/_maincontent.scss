@@ -1,0 +1,47 @@
+.maincontent{
+    background-color: #eeeeee;
+    max-width: $maxwidth;
+    margin-top: 75px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 20px; 
+    height: 340px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+
+.text{
+    font-size: 18px;
+    font-weight: lighter;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    align-items: center;
+    
+    p{
+        width: 100%;
+        text-align: center;
+    }
+    
+
+
+}
+.gun-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+
+    div{
+        width:calc(33% - 20px);
+        text-align: center;
+    }
+
+}
+}

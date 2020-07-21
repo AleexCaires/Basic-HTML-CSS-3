@@ -1,0 +1,44 @@
+.key-container{
+    max-width:100%;
+    background-color: #ffffff;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    margin-top: 40px;
+    position: relative;
+    
+    
+    
+
+    .key{
+        width:calc(25% - 60px);
+        max-width: 200px;
+        height: 280px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 40px auto;
+        align-items: center;
+        //border: red dashed 1px;
+        text-align: center;
+        box-shadow:inset 0 1px 10px rgba($color: #000000, $alpha: 0.25);
+
+        &:hover{
+            background-color: #FCDB00;
+            background-image: linear-gradient(45deg, $senary,$sexto)
+        }
+        img{
+            height:auto;
+            width: 80%;
+        }
+
+
+    
+    }
+
+
+}
